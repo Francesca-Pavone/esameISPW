@@ -14,7 +14,7 @@ public class Main extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Calculator");
         stage.setScene(scene);
-        stage.getScene().getStylesheets().add(Main.class.getResource("/com/ispw/esameispw/lightMode.css").toExternalForm());
+        stage.getScene().getStylesheets().add(Main.class.getResource("/com/ispw/esameispw/style.css").toExternalForm());
         stage.show();
     }
 
