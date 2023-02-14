@@ -3,19 +3,10 @@ package com.ispw.esameispw;
 public class Calculation {
     public double calculateSingleMemberOperations(double firstOperand, String operationToDo) {
         switch (operationToDo) {
-
-            case "√x":
-                return Math.sqrt(firstOperand);
-            case "x²":
-                return firstOperand * firstOperand;
             case "log":
                 return Math.log10(firstOperand);
             case "ln":
                 return Math.log(firstOperand);
-            case "sin":
-                return Math.sin(firstOperand);
-            case "cos":
-                return Math.cos(firstOperand);
             default:
                 break;
         }
