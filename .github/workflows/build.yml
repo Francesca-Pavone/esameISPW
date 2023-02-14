@@ -8,7 +8,7 @@ jobs:
   
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: src/
+      - name: src/main/java/com/ispw/esameispw/
         run: |
           ls ${{ github.workspace }}
       - run: echo " ${{ job.status }}."
