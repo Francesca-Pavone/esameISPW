@@ -1,6 +1,7 @@
 package com.ispw.esameispw;
 
 public class Calculation {
+
     public double calculateSingleMemberOperations(double firstOperand, String operationToDo) {
         switch (operationToDo) {
             case "log":
